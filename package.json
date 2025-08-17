@@ -1,0 +1,23 @@
+{
+  "name": "react-stable-spinner",
+  "version": "0.1.6",
+  "description": "A React hook that delays loading spinner display",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist; tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "teniryte <teniryte@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^4.0.0",
+    "tsup": "^5.0.0",
+    "@types/react": "^18.0.0"
+  }
+}

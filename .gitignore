@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Директория для сборки
+dist/
+
+# Логи
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Конфигурационные файлы IDE
+.vscode/
+.idea/
+
+# Файлы, генерируемые TypeScript
+*.tsbuildinfo
+
+# Файлы конфигурации TypeScript
+tsconfig.tsbuildinfo
+
+# Файлы временного и кэшированного содержимого
+*.log
+*.tgz
+
+# Папки и файлы, связанные с тестами
+coverage/
+
+# Операционная система и её кэш
+.DS_Store
+Thumbs.db
