@@ -6,8 +6,8 @@ export const useStableSpinner = (
     after = 300,
     minDuration = 500,
   }: {
-    after: number;
-    minDuration: number;
+    after?: number;
+    minDuration?: number;
   } = {
     after: 300,
     minDuration: 500,
