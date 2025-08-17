@@ -8,6 +8,9 @@ export const useStableSpinner = (
   }: {
     after: number;
     minDuration: number;
+  } = {
+    after: 300,
+    minDuration: 500,
   }
 ) => {
   const [showLoading, setShowLoading] = useState(false);
